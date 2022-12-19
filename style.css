@@ -1,0 +1,38 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+    animation: Color 2s linear infinite;
+    -webkit-animation: Color 4s ease-in-out infinite;
+    text-shadow: 10px 10px #ffffff;
+    transition: color 0.4s;
+    text-decoration: none;
+}
+
+@keyframes Color{
+  0%{
+    color:#ffd500;
+  }
+  
+  20%{
+    color:#00a2ff;
+  }
+  
+  40%{
+    color:#f1bb32;
+  }
+  
+  60%{
+    color:#ffffff;
+  }
+  
+  80%{
+    color:#ecc503;
+  }
+  
+  100%{
+    color:#0132d3;
+  }
+}
